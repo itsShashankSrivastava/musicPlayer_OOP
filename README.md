@@ -9,14 +9,19 @@ Album.java
 **Attributes:**
 
 -> name (String): Name of the album.
+
 -> artist (String): Name of the artist.
+
 -> songs (ArrayList<Song>): List of songs in the album.
 
 **Methods:**
 
 -> findSong(String title): Song: Finds a song by title.
+
 -> addSong(String title, double duration): boolean: Adds a new song to the album.
+
 -> addToPlayList(int trackNumber, LinkedList<Song> PlayList): boolean: Adds a song to a playlist by track number.
+
 -> addToPlayList(String title, LinkedList<Song> PlayList): boolean: Adds a song to a playlist by title.
 
 **Song.java**
@@ -24,12 +29,15 @@ Album.java
 **Attributes:**
 
 -> title (String): Title of the song.
+
 -> duration (double): Duration of the song.
 
 **Methods:**
 
 -> getTitle(): String: Returns the title of the song.
+
 -> getDuration(): double: Returns the duration of the song.
+
 -> toString(): String: Returns a string representation of the song.
 
 **Main.java**
@@ -41,8 +49,11 @@ Album.java
 **Methods:**
 
 -> play(LinkedList<Song> playList): void: Simulates the playback functionality of the music player.
+
 -> printMenu(): void: Prints the available options in the music player.
+
 -> printList(LinkedList<Song> playList): void: Prints the list of songs in the playlist.
+
 -> main(String[] args): void: The main method initializing albums, adding songs, and creating playlists.
 
 **Getting Started**
